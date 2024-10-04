@@ -1,4 +1,5 @@
 import 'dotenv/config.js';
+import './migration.js'
 import morgan from 'morgan';
 import express from 'express';
 
