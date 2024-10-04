@@ -1,0 +1,23 @@
+{
+  "name": "my_auto",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "mish_ghalachyan",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "md5": "^2.3.0",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.11.3",
+    "nodemailer": "^6.9.15",
+    "sequelize": "^6.37.3"
+  }
+}
