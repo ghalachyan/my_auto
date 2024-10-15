@@ -1,7 +1,15 @@
 import Users from './models/Users.js';
+import CarsModels from './models/CarsModels.js';
+import Brands from './models/Brands.js';
+import Regions from './models/Regions.js';
+import Countries from './models/Countries.js';
 
 const models = [
     Users,
+    Brands,
+    CarsModels,
+    Regions,
+    Countries
 ];
 
 (async () => {
